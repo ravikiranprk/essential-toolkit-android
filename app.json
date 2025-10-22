@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "react-native-essential-toolkit",
+    "slug": "react-native-essential-toolkit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/essential-toolkit-mobile-logo.jpg",
+    "scheme": "reactnativeessentialtoolkit",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/essential-toolkit-mobile-logo.jpg"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/essential-toolkit-mobile-logo.jpg",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/essential-toolkit-mobile-logo.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
